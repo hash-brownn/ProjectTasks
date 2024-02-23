@@ -1,0 +1,142 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Courier New', Courier, monospace;
+  
+}
+body{
+  display: flex; 
+  justify-content: center;
+  background-color: rgb(36, 37, 46);
+}
+.container{
+max-width: 800px;
+background-color: rgb(255, 215, 222);
+min-height: 100vh;
+position: relative;
+
+}
+input:not([type="checkbox"]){
+  outline: none;
+  border: none;
+  appearance: none;
+  font-size: 20px;
+  background-color: transparent;
+}
+header{
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 46, 108);
+  margin-bottom: 10px;
+  height: 85px;
+}
+header img{
+  max-height: 70px;
+  margin-right: 10px;
+}
+
+header h1 {
+    font-size: 100%;
+}
+.projectname{
+    font-size: 70%;
+    white-space: nowrap;
+    display: flex;
+    margin-left: 10px;
+  }
+  .project{
+    width: 100%;
+  }
+.addtasks{
+    font-size: 70%;
+    margin-left: 10px;
+    display: flex;
+    white-space: nowrap;
+}
+.addtasks input{
+  width: 100%;
+  
+}
+.addtaskbtn{
+  background-color:rgb(241, 46, 108);
+  border: none;
+  border-radius: 20px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.addtaskbtn:hover{
+  background-color: rgb(251, 70, 128);
+  cursor: pointer;
+}
+hr{
+  background-color: black;
+  margin: 20px 20px 20px 20px;
+}
+.listheading{
+  font-size: 25px;
+  margin-left: 10px;
+}
+.tasks{
+  display: flex;
+  background-color:rgb(225, 213, 252);
+  margin: 10px 10px 10px 10px;
+  padding: 5px 15px 5px 10px;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.taskandcheckbox{
+  display: flex;
+  flex: 1;
+  
+}
+.label{
+  margin-left: 10px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  color: black;
+}
+.delete{
+  background-color: rgb(241, 46, 108);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+ 
+  
+}
+.delete:hover{
+  background-color: rgb(251, 70, 128);
+  cursor: pointer;
+}
+.clearContainer{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  bottom: 30px;
+}
+.clear{
+  background-color:rgb(24, 133, 250);
+  border: none;
+  border-radius: 20px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  
+}
+.clear:hover{
+  background-color: rgb(66, 156, 252);
+  cursor: pointer;
+}
+
+
+
+
